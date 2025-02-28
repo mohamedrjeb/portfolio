@@ -1,0 +1,374 @@
+*{ 
+    margin: 0%; 
+    padding: 0%;
+} 
+body{ 
+    font-family: "Josefin Sans", serif;
+    
+    
+}
+.surnar{ 
+    background-color: #E8F9FF;
+    text-align: center;
+    height: 40px;
+    padding-top: 15px;
+    font-size: 30px;
+    
+}
+nav{ 
+    height: 75px;
+    
+    display: flex; 
+    background-color: #E8F9FF; 
+    justify-content: space-around; 
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.276);
+    position: sticky;
+    top: 0;
+    z-index: 5000;
+}
+.navl{ 
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 3%;
+    transition: color 1s;
+    transition: box-shadow 1s;
+}
+.navl:hover{ 
+    color: aqua;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px #aaaaaa;
+}
+.navr{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+a{
+    text-decoration-line: none;
+    color: #070708;
+}
+section{ 
+    padding-top: 50px;
+    background-color: #C4D9FF;
+    height: 600px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    gap: 30px;
+    
+}
+.moi{ 
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px #261313;
+    margin-bottom: 10px;
+    
+    transition: box-shadow 1s;
+
+    
+
+} 
+.moi:hover{
+    
+    box-shadow: 0px 0px 0px;
+    cursor: pointer;
+}
+.contact{ 
+        width: 150px;
+        height: 50px; 
+        border-radius: 10%;
+        background-color: blueviolet;
+        box-shadow: 10px 10px 5px  #301a1a;
+        transition: color 1s;
+        transition: box-shadow 1s;
+        
+} 
+.contact:hover{ 
+    background-color: black ;
+    box-shadow: 0px 0px 0px  #301a1a;
+    
+    cursor: pointer;
+}
+.contactb{ 
+    
+    color: #E8F9FF;
+        font-size: large ;
+        width: 100%; 
+        height: 100%;
+
+} 
+
+.icon{ 
+    display: flex;
+    gap: 20px;
+}
+.fa-solid.fa-file {
+    font-size: 24px; /* Ajustez la taille selon vos besoins */
+}
+.fa-solid.fa-file:hover{ 
+    font-size: 35px; 
+    cursor: pointer;
+}
+.fa-brands.fa-github{ 
+    font-size: 25px;
+} 
+.fa-brands.fa-github:hover{ 
+    font-size: 35px; 
+    cursor: pointer;
+
+
+}
+.fa-brands.fa-linkedin{ 
+    font-size: 25px;
+}
+.fa-brands.fa-linkedin:hover{ 
+    font-size: 35px; 
+    cursor: pointer;
+}
+.comp{ 
+    background-color: #C4D9FF;
+    height: 780px;
+    display: flex;
+   
+    flex-direction: column;
+
+}
+.compt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+    
+    
+    
+}
+.comptt{ 
+
+    display: flex;
+    flex-direction: column;
+    padding-top:  30px;
+    padding-left: 10px;
+    background-color: #C5BAFF;
+    width: 300px;
+    height: 200px;
+    gap: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(18, 42, 52);
+    transition: height 1s;
+    transition: width 1s ;
+    
+}
+.comptt:hover{
+    color: #4935a0;
+    height: 240px;
+    width: 355px;
+    cursor: pointer;
+
+}
+.contacter{ 
+
+    background-color: #C5BAFF;
+    height: 600px;
+    padding-top: 30px;
+}
+.contacterb{ 
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.contacterba{ 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.contacterbb{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.form1{ 
+    display: flex;
+    gap: 70px;
+}
+input{ 
+width: 200px;
+height: 30px;
+background-color: #C4D9FF;
+}
+.divdiv{ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form2{ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+textarea{ 
+    background-color: #C4D9FF;
+    height: 150px;
+}
+.but{ 
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    
+    
+}
+.env{ 
+    color: #E8F9FF;
+    width: 120px;
+        height: 35px; 
+        border-radius: 10%;
+        background-color: blueviolet;
+        box-shadow: 5px 5px 5px  #301a1a;
+        transition: background-color 1s ;
+        transition: box-shadow 1s;
+}
+.env:hover{
+    background-color: #070708;
+    box-shadow: 0px 0px 0px  #301a1a;
+    
+    cursor: pointer;
+    
+}
+footer{ 
+    background-color: #544695;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.pp{ 
+    color: #C4D9FF;
+}
+.iam{ 
+    height: 200px;
+    width: 200px;
+} 
+.hov:hover{
+    color: #4935a0;
+    
+    cursor: pointer;
+}
+.section2{ 
+    background-color: #C4D9FF;
+    height: 600px;
+    padding-top: 30px;
+}
+.hh{ 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 10px;
+    
+}
+.carreau{ 
+
+    display: flex;
+    position: relative;
+    background-color: #C5BAFF;
+    width: 800px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    margin-top: 80px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+    background-image: url(./moi3.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    z-index: 1;
+}
+.overlay{ 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(128, 128, 128, 0.575);
+    z-index: 1;
+    position: absolute;
+    border-radius: 20px;
+}
+.carreaul{ 
+    z-index: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: white;
+}
+.dow{ 
+    width: 120px;
+}
+.carreaurr{ 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    z-index: inherit;
+    color: #fbfcfd;
+}
+.ss{ 
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.ss div{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px   ;
+} 
+.dow{ 
+    color: #E8F9FF;
+    width: 120px;
+        height: 35px; 
+        border-radius: 10%;
+        background-color: #544695;
+        box-shadow: 5px 5px 5px  #301a1a;
+        transition: background-color 1s ;
+        transition: box-shadow 1s;
+}
+.dow:hover{ 
+    background-color: #070708;
+    box-shadow: 0px 0px 0px  #301a1a;
+    
+    cursor: pointer;
+
+}
+.barre{ 
+    background-color: #C5BAFF;
+    
+    border-style: double;
+}
+.evaluation{ 
+    color: #4935a0;
+    background-color: #4935a0;
+    width: 85%;
+}
+.evaluation2{ 
+    color: #4935a0;
+    background-color: #4935a0;
+    width: 90%;
+}
+.evaluation3{ 
+    color: #4935a0;
+    background-color: #4935a0;
+    width: 55%;
+}
+.evaluation4{ 
+    color: #4935a0;
+    background-color: #4935a0;
+    width: 45%;
+}
+
+
